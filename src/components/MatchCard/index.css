@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.match-card-container {
+  width: 30%;
+  background-color: #0f172a;
+  color: #ffff;
+  list-style: none;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.match-card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.match-card-img {
+  height: 100px;
+  padding: 10px;
+}
+.match-card-details {
+  margin: 10px;
+  text-align: center;
+}
+.win {
+  color: #18ed66;
+  margin: 10px;
+  font-size: 15px;
+}
+.loss {
+  color: #e31a1a;
+  margin: 10px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  .match-card-container {
+    width: 20%;
+  }
+  .match-card-img {
+    height: 70px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .match-card-container {
+    width: 25%;
+  }
+  .match-card-img {
+    height: 90px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .match-card-container {
+    width: 30%;
+  }
+  .match-card-img {
+    height: 100px;
+    padding: 10px;
+  }
+}

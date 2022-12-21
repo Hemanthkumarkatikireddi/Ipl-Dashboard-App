@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.latest-match-container {
+}
+.latest-match-heading {
+  font-family: Bree Serif;
+  color: #ffff;
+  margin: 10px 5px;
+  font-size: 18px;
+}
+.latest-match-box {
+  background-color: #0f172a;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-family: bree serif;
+}
+.sub1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.sub3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+}
+.latest-match-img {
+  height: 200px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .latest-match-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sub1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffff;
+  }
+
+  .sub3 {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .latest-match-img {
+    height: 150px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .latest-match-box {
+    background-color: #0f172a;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-family: bree serif;
+  }
+  .sub1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 60%;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border: none;
+  }
+  .sub3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+  }
+  .latest-match-img {
+    height: 200px;
+    padding: 10px;
+  }
+}
+
+.team-name {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.font {
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.date {
+  margin: 16px 0px;
+  font-size: 14px;
+}
+.font-head {
+  font-size: 18px;
+  margin: 10px 0px;
+}
